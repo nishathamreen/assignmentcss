@@ -1,0 +1,500 @@
+*{
+    margin: 0;
+    padding:0;
+
+}
+.openup{
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    font-style: italic;
+}
+.main H4{
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+
+}
+.container{
+    margin: 20px;
+    padding: 20px;
+    display: grid;
+   height: 60vh;
+   width: 80vw;
+
+   /* background-color: aqua; */
+    border: 2px solid white;
+   grid-gap:10px 10px ;
+   grid-template-columns: 500px auto auto;
+  grid-template-rows: 180px 180px;
+  }
+    
+  
+  .item1{
+    margin: 5px;
+   
+      border-radius: 20px;
+      border: 2px solid;
+      background-image: url(img/newfries.avif);
+      background-size: cover;
+
+      
+      
+  }
+  .item2{
+ 
+    margin: 5px;
+ 
+      border-radius: 20px;
+    border: 2px solid;
+    background-image: url(img/newdoughnut.avif);
+    background-size: cover;
+    
+    
+}
+
+  
+.item3{
+     
+    margin: 5px;
+    
+      border-radius: 20px;
+    border: 2px solid;
+    background-image: url(img/macaroon.avif);
+    background-size: cover;
+    
+}
+.item4{
+     
+    margin: 5px;
+    
+      border-radius: 20px;
+    border: 2px solid;
+    background-image: url(img/newpanertikka.avif);
+
+    background-size: cover;
+    
+}
+
+  
+
+ .gridbox{
+    margin: 5px;
+    
+      border-radius: 20px;
+     border:3px solid ;
+     background-image: url(img/newpizza.avif);
+     grid-row: 1/ span3 ;
+     background-size: cover;
+     flex-direction: column;
+  }
+  .gridbox .firstslidebar{
+   /* background-color:cadetblue; */
+   margin:0;
+  background-color: #ffffff;
+  border: 1px solid;
+  opacity: 0.6;
+  height: 25%;
+  width: 485px;
+  border-radius: 20px;
+  }
+
+
+  .gridbox .firstslidebar .button{
+   font-size: 1em;
+   /* border: 4px; */
+   border-radius: 4px;
+   /* border-color:solid black; */
+   padding: 4px;
+   cursor: pointer;
+   /* background-color: cadetblue; */
+  }
+  .item1 .secslidebar{
+   margin:0;
+   background-color: #ffffff;
+   border: 1px solid;
+   opacity: 0.6;
+   height: 80px;
+   width: 300px;
+   border-radius: 20px;
+  }
+ .item1 .secslidebar .button{
+   font-size: 1em;
+ 
+   border-radius: 4px;
+   
+  padding: 4px;
+   cursor: pointer;
+ }
+ .item2 .thirdslidebar{
+   margin:0;
+   background-color: #ffffff;
+   border: 1px solid;
+   opacity: 0.6;
+   height: 80px;
+   width: 300px;
+   border-radius: 20px;
+ }
+ .item2 .thirdslidebar .button{
+   font-size: 1em;
+  
+   border-radius: 4px;
+   
+  
+ padding: 4px;
+  
+   cursor: pointer;
+ }
+ .item3  .fourthslidebar{
+   margin:0;
+   background-color: #ffffff;
+   border: 1px solid;
+   opacity: 0.6;
+   height: 80px;
+   width: 300px;
+   border-radius: 20px;
+ }
+ .item3  .fourthslidebar .button{
+   font-size: 1em;
+  
+   border-radius: 4px;
+   
+  
+ padding: 4px;
+  
+   cursor: pointer;
+ }
+ .item4  .fivthslidebar{
+   margin:0;
+   background-color: #ffffff;
+   border: 1px solid;
+   opacity: 0.6;
+   height: 80px;
+   width: 300px;
+   border-radius: 20px;
+ }
+ .item4  .fivthslidebar .button{
+   font-size: 1em;
+  
+   border-radius: 4px;
+   
+  
+ padding: 4px;
+  
+   cursor: pointer;
+ }
+
+ .second_container{
+    display: flex;
+
+    /* background-color: grey ; */
+    margin: 20px;
+    padding: 20px;
+   
+ }
+ .second_container .newbox1{
+    
+    border-radius: 5px;
+    border: 2px  solid white;
+   font-size: 12px;
+   height: 200px;
+   width:30vw;
+text-align: center;
+padding-top: 85px;
+
+ }
+ .second_container .newbox2{
+    border-radius: 5px;
+    border: 2px solid white;
+    font-size: 12px;
+    height: 200px;
+    width:30vw;
+    text-align: center;
+    
+    padding-top: 85px;
+ }
+ .second_container .newbox3{
+    border-radius: 5px;
+    border: 2px solid white;
+   
+    font-size: 12px;
+   height: 200px;
+   width:30vw;
+   text-align: center;
+   padding-top: 85px;
+  
+
+ }
+.thirdcontainer{
+margin: 20px;
+padding:20px;
+    height: 50vh;
+    width:85vw;
+
+    background-image: url(img/istockphoto.avif);
+    background-size: cover;
+    border:15px;
+   display: flex;
+   justify-content:space-around;
+
+}
+.thirdcontainer h3{
+    text-align: center;
+}
+.thirdcontainer .firstpic{
+    /* background-color: whitesmoke; */
+    color: white;
+}
+ .thirdcontainer .firstpic img{
+    
+    border: 4px solid white;
+    border-radius: 100px;
+    cursor: pointer;
+ }
+
+ .thirdcontainer .secpic img{
+    background-image: url(img/chef\ damar\ brown.jpg);
+    border: 4px solid white;
+    border-radius: 100px;
+    cursor: pointer;
+
+ }
+ .thirdcontainer .secpic {
+     color: white;
+     
+
+ }
+ #chef1{
+    font-size: large;
+    font-weight: bolder;
+ }
+ #chef2{
+    font-size: large;
+    font-weight: bolder;
+ }
+ .topchefs{
+    text-align: center;
+    font-size: large;
+    font-weight: bolder;
+ }
+ .fourthcontainer{
+    margin: 10px;
+    padding: 10px;
+    height: 70vh;
+    width: 85vw;
+    background-image: url(img/final.avif);
+    background-size:cover ;
+
+ }
+ .fourthcontainer .foodguide img{
+    display: flex;
+    border: 4px solid white;
+    border-radius: 100px;
+    justify-content: space-around;
+    cursor: pointer;
+    
+
+ }
+ .fourthcontainer .foodguide{
+   color: white;
+   
+ }
+ .food{
+  text-align: center;
+ }
+
+ @media only screen and (max-width: 1200px) {
+  
+  .container{
+   /* display: flex;
+   flex-direction: column; */
+   grid-template-columns: 400px 250px 250px;
+   grid-template-rows: 180px 180px;
+
+
+
+  }
+  .item1 .secslidebar{
+    margin:0;
+    background-color: #ffffff;
+    border: 1px solid;
+    opacity: 0.6;
+    height: 90px;
+    width: 240px;
+    border-radius: 20px;
+   }
+   .gridbox .firstslidebar{
+    /* background-color:cadetblue; */
+    margin:0;
+   background-color: #ffffff;
+   border: 1px solid;
+   opacity: 0.6;
+   height: 25%;
+   width: 385px;
+   border-radius: 20px;
+   }
+   
+   .item3 .fourthslidebar{
+    margin:0;
+    background-color: #ffffff;
+    border: 1px solid;
+    opacity: 0.6;
+    height: 90px;
+    width: 240px;
+    border-radius: 20px;
+   }
+   
+   .item2 .thirdslidebar{
+    margin:0;
+    background-color: #ffffff;
+    border: 1px solid;
+    opacity: 0.6;
+    height: 90px;
+    width: 240px;
+    border-radius: 20px;
+   }
+   .item4 .fivthslidebar{
+    margin:0;
+    background-color: #ffffff;
+    border: 1px solid;
+    opacity: 0.6;
+    height: 90px;
+    width: 240px;
+    border-radius: 20px;
+   }
+}
+
+@media only screen and (max-width: 996px) {
+  .container{
+    /* display: flex;
+    flex-direction: column; */
+    grid-template-columns: 400px 250px ;
+    grid-template-rows: 180px 180px;
+    position: relative;
+   height: 20%;
+  }
+
+  .item4 .fivthslidebar{
+    margin:0;
+    background-color: #ffffff;
+    border: 1px solid;
+    opacity: 0.6;
+    height: 90px;
+    width: 385px;
+    border-radius: 20px;
+   }
+
+   .item4{
+    display: flex;
+     justify-content: center;
+    margin: 5px;
+    height: 250px;
+      border-radius: 20px;
+    border: 2px solid;
+    background-image: url(img/newpanertikka.avif);
+
+    background-size: cover;
+    position: relative;
+    bottom: 290px;
+
+    
+}
+.gridbox{
+  margin: 5px;
+  height: 280px;
+    border-radius: 20px;
+   border:3px solid ;
+   background-image: url(img/newpizza.avif);
+   grid-row: 1/ span3 ;
+   background-size: cover;
+   flex-direction: column;
+}
+ 
+.item3{
+     
+  margin: 5px;
+  height: 180px;
+    border-radius: 20px;
+  border: 2px solid;
+  background-image: url(img/macaroon.avif);
+  background-size: cover;
+  
+}
+}
+
+@media only screen and (max-width: 712px){
+  .container{
+    /* display: flex;
+    flex-direction: column; */
+    grid-template-columns: 250px ;
+    grid-template-rows: 180px 180px;
+    position: relative;
+    height:40%
+  }
+  .gridbox{
+    width:250px;
+    height:180px;
+
+  }
+
+  .gridbox .firstslidebar{
+    width:250px;
+  }
+  .item1{
+    width:250px;
+    height:180px;
+    position: relative;
+   bottom: 180px;
+  }
+  
+
+  .item1 .secslidebar{
+    width:250px;
+  }
+  .item2{
+    width:250px;
+    height:180px;
+    position: relative;
+    bottom: 180px;
+  }
+  
+  .item3{
+    width:250px;
+    height:180px;
+    position: relative;
+    top:180px;
+  
+    
+   
+  }
+  .item4{
+    width:250px;
+    height:180px;
+
+  }
+  .item2 .thirdslidebar{
+    width:250px;
+  }
+  .item3 .fourthslidebar{
+    width:250px;
+  }
+
+  .item4 .fivthslidebar{
+    width:250px;
+  }
+}
+
+@media only screen and (max-width: 500px){
+ .second_container .newbox1{
+  height:400px;
+ }
+ .second_container .newbox2{
+  height:400px;
+ }
+ .second_container .newbox3{
+  height:400px;
+ }
+}
+
+
+ 
